@@ -1,0 +1,6 @@
+nvidia control panal:
+- -------------------------------: adjust image setting: quality
+- 3d settings> manage 3d settings: Low Latency mode: true
+---------------------------------: power management mode: maximum performance.
+
+-display>change resolution: refresh rate + color
