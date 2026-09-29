@@ -1,9 +1,11 @@
 # Mahdi's writing style — extracted from his own edits
 
 **Evidence base:** `group 1/*.txt` are AI-drafted scripts; `group 1/تنقية النص/*.txt` are the same
-scripts after Mahdi edited them by hand. Every rule below is a change he made himself. The
-`group 2/` scripts show the same voice. Re-derive with:
-`diff "group 1/<file>" "group 1/تنقية النص/<file>"`.
+scripts after Mahdi edited them by hand. Every rule below is a change he made himself. Re-derive
+with: `diff "group 1/<file>" "group 1/تنقية النص/<file>"`.
+
+`group 2/` holds AI drafts he has **not** edited yet, so they are not evidence of his voice. Use
+them as test inputs: rewrite one and compare with his edit once he makes it.
 
 ## 1. Hooks: short, blunt, a claim or a sharp question — no hype
 
