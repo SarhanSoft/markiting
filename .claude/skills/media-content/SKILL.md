@@ -1,6 +1,6 @@
 ---
 name: media-content
-description: Create one piece of Mahdi's media content (a reel script or carousel text for TikTok / Instagram, Arabic, Kuwaiti dialect) — find or take an idea, judge it against his content plan, write it, then rewrite it in his own voice learned from his edited scripts. Use when Mahdi gives a topic («اكتب عن…», «سوّ محتوى عن…»), asks for ideas («اعطني فكرة», «ابحث عن شي ننشره»), shares a trend or a claim to answer, or asks to critique an AI tool or plugin for content.
+description: Create one piece of Mahdi's media content (a reel script or carousel text for TikTok / Instagram, Arabic, Kuwaiti dialect) — find or take an idea, judge it against his content plan, write it, then rewrite it in his own voice learned from his edited scripts. Use when Mahdi gives a topic («اكتب عن…», «سوّ محتوى عن…»), asks for ideas («اعطني فكرة», «ابحث عن شي ننشره»), asks to be interviewed for one («اسألني»), shares a trend or a claim to answer, or asks to critique an AI tool or plugin for content.
 ---
 
 # Media content
@@ -19,12 +19,21 @@ Paths are relative to the project root (the folder holding `خطة-المحتو�
 
 ## 1. Get the idea
 
-- **Mahdi gave a topic** → go to step 2 with it. If it needs facts you do not have, launch one
-  `content-researcher` agent with the topic.
-- **Asked to find one** → launch three `content-researcher` agents **in parallel**, one per
-  angle: `trend`, `gaps`, `claims`. Merge their results, drop duplicates, and bring the best
-  **three to five**, each in two lines: what it is, which topic of the plan it fits, and the
-  source link. Stop and let him choose unless he asked you to choose.
+Three ways in; take the one Mahdi asks for:
+
+- **He gives a topic** → go to step 2 with it. If it needs facts you do not have, launch one
+  `content-researcher` agent in `topic` mode with it.
+- **He asks you to ask him** («اسألني», «طلّع مني فكرة») → ask up to three short questions at
+  once, each tied to a different ✅ topic of the plan and aimed at something he lived, not an
+  opinion. Examples: «شنو آخر مشكلة واجهتك بالـ ERP وما حلها الذكاء الاصطناعي؟», «أي ميكانيكية
+  بلعبة لعبتها مؤخراً ضايقتك؟», «أي أداة ذكاء اصطناعي جربتها هالأسبوع؟». His answer becomes the
+  topic; research it as above if needed.
+- **He asks you to find one** → launch `content-researcher` agents in `discover` mode **in
+  parallel**, one per lens. The lens is whatever he names (a topic number, a field, a platform,
+  a news event); if he names none, use three: `trend`, `gaps`, `claims`. Merge the results,
+  drop duplicates, and bring the best **three to five**, each in two lines: what it is, which
+  topic of the plan it fits, and the source link. Stop and let him choose unless he asked you
+  to choose.
 
 ## 2. Judge it before writing
 
