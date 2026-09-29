@@ -2,6 +2,7 @@
 التاريخ: 2026-09-29
 الموضوع: 5 — نقد الألعاب وميكانيكياتها
 المرحلة: تثقيفية
+التصنيف: شيء آخر (مفهوم دائم)
 المصدر: https://mp1st.com/news/battlefield-6-server-tick-rate-60hz-enemy-visibility-improved-per-map
 ---
 

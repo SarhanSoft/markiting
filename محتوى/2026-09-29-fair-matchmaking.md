@@ -2,6 +2,7 @@
 التاريخ: 2026-09-29
 الموضوع: 5 — نقد الألعاب وميكانيكياتها
 المرحلة: تثقيفية
+التصنيف: شيء آخر (دراسة يونيو)
 المصدر: https://techxplore.com/news/2026-06-smarter-matchmaking-equal-skill-millions.html
 ---
 

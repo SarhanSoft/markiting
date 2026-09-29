@@ -2,6 +2,7 @@
 التاريخ: 2026-09-29
 الموضوع: 5 — نقد الألعاب وميكانيكياتها
 المرحلة: تثقيفية
+التصنيف: شيء آخر (باتش يوليو)
 المصدر: https://diablobytes.com/diablo-iv/news/2026-07-14-diablo-4-patch-addresses-mythic-unique-drop-rate-bug/
 ---
 
