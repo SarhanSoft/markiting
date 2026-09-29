@@ -2,7 +2,8 @@
 
 **Evidence base:** `group 1/*.txt` are AI-drafted scripts; `group 1/تنقية النص/*.txt` are the same
 scripts after Mahdi edited them by hand. Every rule below is a change he made himself. Re-derive
-with: `diff "group 1/<file>" "group 1/تنقية النص/<file>"`.
+with: `diff "group 1/<file>" "group 1/تنقية النص/<file>"`. Pairs archived as content (not as
+style) stay evidence: `diff "ارشيف/منقاة/مسودات/<file>" "ارشيف/منقاة/<file>"`.
 
 `group 2/` holds AI drafts he has **not** edited yet, so they are not evidence of his voice. Use
 them as test inputs: rewrite one and compare with his edit once he makes it.
